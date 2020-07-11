@@ -1,6 +1,6 @@
-var min = 0;
-var sec = 0;
-var msec = 00;
+var min = "00";
+var sec = "00";
+var msec = "00";
 var minHeading = document.getElementById("min");
 var secHeading = document.getElementById("sec");
 var msecHeading = document.getElementById("msec");
@@ -12,10 +12,10 @@ function timer() {
     if (msec >= 100) {
         sec++
         secHeading.innerHTML = sec
-        msec = 0
+        msec = "00"
     } else if (sec >= 60) {
         min++
-        sec = 0
+        sec = "00"
         minHeading.innerHTML = min
     }
 
@@ -31,9 +31,9 @@ function pause() {
     document.getElementById('nom').disabled = false
 }
 function reset() {
-    min = 0
-    sec = 0
-    msec = 0
+    min = "00"
+    sec = "00"
+    msec = "00"
     minHeading.innerHTML = min
     secHeading.innerHTML = sec
     msecHeading.innerHTML = msec

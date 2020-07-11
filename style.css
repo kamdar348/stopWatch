@@ -3,11 +3,17 @@ body{
     background-color: wheat;
     text-align: center;
     color: #fffffc;
-  
-    
- 
+    background-image: url("https://wallpaperaccess.com/full/1536532.jpg");
+    background-position: center;
+  background-repeat: no-repeat;
+background-size: cover;
+       
    
 }
+body, html {
+    height: 100%;
+    width: auto;
+  }
 
 h1{
 
@@ -18,12 +24,14 @@ h1{
     text-transform:uppercase;
     text-shadow: 2px 2px 0px #111111;
     border-radius: 30px;
+    text-shadow: 2px 2px 0px #f59906;
    
 }
 .st{
     font-size: 20px; 
     height: 50px;
-    background-color: slateblue;
+    background-color: #2C3E50;
+    color: #fffffc;
     width: 70px;
     height: 70px;
     border-radius: 100%;
@@ -33,7 +41,7 @@ h1{
 
 .btn{
     padding-top:2px;
-    background-color: slateblue;
+    background-color: #2C3E50;
 }
 
 
